@@ -12,4 +12,4 @@ Will install required dependencies for the other scripts by me and for the backu
 Will download the newest release (the `master` branch of the `mrrfv/linux-android-backup` repo) of the backup script and tell the user where it has been downloaded.
 
 ### cleanup.sh
-Will delete the folder in which the backup script is found and nothing else.
+Will delete the folder in which the backup script is found and the companion app *if* it is found in the local directory (which happens if you run the script from the local directory and not from directory where it actually is).
