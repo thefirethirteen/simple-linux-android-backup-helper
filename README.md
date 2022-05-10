@@ -1,7 +1,5 @@
 # simple-linux-android-backup-helper
-Simple helper for [linux-android-backup](https://github.com/mrrfv/linux-android-backup)
-
-Remember to star the aforementioned repo so mrrfv knows people are using it!
+Simple helper for linux-android-backup
 
 # Usage
 
