@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget "https://github.com/mrrfv/linux-android-backup/archive/refs/heads/master.zip" --output-document "backup-script-archive.zip"
+curl --fail --location --continue-at - "https://github.com/mrrfv/linux-android-backup/archive/refs/heads/master.zip" --output "backup-script-archive.zip"
 
 unzip "backup-script-archive.zip"
 
