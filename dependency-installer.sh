@@ -6,8 +6,4 @@ echo "Commands taken and modified from https://github.com/mrrfv/linux-android-ba
 
 sudo apt-get update
 
-sudo apt install p7zip-full adb curl bc
-
-echo "Also getting \"unzip\" for the backup script downloader to work."
-
-sudo apt-get install unzip
+sudo apt-get install p7zip-full adb curl bc
